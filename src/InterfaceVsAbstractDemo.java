@@ -1,5 +1,7 @@
 public class InterfaceVsAbstractDemo{
+	
     public static void main(String args[]){
+    	
         Dog dog = new Dog("Max",16);
         Cat cat = new Cat("Lucy",25);
 
@@ -10,8 +12,6 @@ public class InterfaceVsAbstractDemo{
         dog.protectOwner();
         Learn dl = dog;
         dl.learn();
-
-
         cat.remember();
         cat.protectOwner();
 
